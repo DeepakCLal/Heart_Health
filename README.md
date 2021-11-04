@@ -13,4 +13,4 @@ The dataset that is used for training is of CSV format. The input is read in the
 
 * Run the python file
 * Use the link (http://127.0.0.1:5000/recommend/age_value=56&sex_value=1&cp_value=1&trestbps_value=140&chol_value=290&fbs_value=1&rest_ecg_value=1&thalach_value=140&exang_value=1&oldpeak_value=0&slope_value=0&ca_value=0&thal_value=1) where the values after the '=' sign can be changed in order to see a change in the output.
-* Alternatively one can also edit the code in the python file (line 45 - app.run()) where a desired ip address could be provided (If this change is made, the same address should be used in place of local address in the link above).
+* Alternatively one can also edit the code in the python file (line 45 - app.run()) where a desired address could be provided (If this change is made, the same address should be used in place of the address given in the link above).
